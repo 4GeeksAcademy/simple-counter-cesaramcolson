@@ -11,3 +11,20 @@ import Home from "./component/home.jsx";
 //render your react application
 ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
 
+
+//this should be in a separated archive called SecondsCounter.jsx imported to this one
+let counter = 0;
+
+const updateCounter = () => {
+    const digits = document.querySelectorAll('#seconds-counter .digit');
+    let secondsString = String(counter).padStart(4, '0');
+    
+    for (let i = 0; i < digits.length; i++) {
+        digits[i].textContent = secondsString[i];
+    }
+    
+    counter++;
+};
+
+setInterval(updateCounter, 1000);
+

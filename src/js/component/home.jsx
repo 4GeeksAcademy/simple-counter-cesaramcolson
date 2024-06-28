@@ -2,9 +2,12 @@ import React from "react";
 
 const Home = () => {
 	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-		</div>
+		<div id="seconds-counter">
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+            <div class="digit">0</div>
+        </div>
 	);
 };
 
