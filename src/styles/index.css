@@ -1,21 +1,9 @@
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 750px;
     background-color: #f0f0f0;
     margin: 0;
 }
@@ -30,7 +18,7 @@ body {
     color: #fff;
 }
 
-.digit {
+.digit, .icon {
     background-color: #333;
     width: 40px;
     height: 60px;

@@ -17,7 +17,7 @@ let counter = 0;
 
 const updateCounter = () => {
     const digits = document.querySelectorAll('#seconds-counter .digit');
-    let secondsString = String(counter).padStart(4, '0');
+    let secondsString = String(counter).padStart(6, '0');
     
     for (let i = 0; i < digits.length; i++) {
         digits[i].textContent = secondsString[i];
