@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-#seconds-counter {
+.seconds-counter {
     display: flex;
     gap: 10px;
     font-size: 2rem;
